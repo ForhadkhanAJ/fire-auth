@@ -106,9 +106,6 @@ function App() {
         setUser(createdUser);
       })
     }
-    // else{
-    //   console.log('form is not valid', user);
-    // }
     event.preventDefault();
     event.target.reset()
   }
@@ -147,7 +144,7 @@ function App() {
         <img src={user.photo} alt=""/>
         </div>
       }
-      <h1>Our Amader Authentication</h1>
+      <h1>Our Authentication</h1>
       <input type="checkbox" value="switchForm" onChange={switchForm} id="switchForm"/>
       <label htmlFor="switchForm"> Returning User</label>
       
